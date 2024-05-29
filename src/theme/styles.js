@@ -49,7 +49,7 @@ export const globalStyles = {
     global: (props) => ({
       body: {
         overflowX: "hidden",
-        bg: mode("white", "black")(props), // Light mode: Gray 400, Dark mode: Black
+        bg: mode("secondaryGray.100", "black")(props), 
         fontFamily: "Roboto, sans-serif",
         fontWeight: "200",
       },
@@ -57,6 +57,7 @@ export const globalStyles = {
         color: "gray.700",
       },
       html: {
+        bg: mode("white", "black")(props),
         fontFamily: "Roboto, sans-serif",
       },
       ".chakra-text": {
