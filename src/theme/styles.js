@@ -49,7 +49,7 @@ export const globalStyles = {
     global: (props) => ({
       body: {
         overflowX: "hidden",
-        bg: mode("secondaryGray.300", "black")(props), // Light mode: Gray 400, Dark mode: Black
+        bg: mode("white", "black")(props), // Light mode: Gray 400, Dark mode: Black
         fontFamily: "Roboto, sans-serif",
         fontWeight: "200",
       },
