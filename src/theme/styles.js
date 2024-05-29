@@ -57,7 +57,7 @@ export const globalStyles = {
         color: "gray.700",
       },
       html: {
-        bg: mode("white", "black")(props),
+        bg: mode("secondaryGray.100", "black")(props),
         fontFamily: "Roboto, sans-serif",
       },
       ".chakra-text": {
