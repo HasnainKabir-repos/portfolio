@@ -17,12 +17,10 @@ import { React, useState, useRef } from "react";
 import { IoMenuOutline } from "react-icons/io5";
 import Content from "./Content";
 
-import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
 
 export default function Sidenav(props) {
   const [loadedSidenavimg, setloadedSidenavimg] = useState(false);
-  const { colorMode } = useColorMode();
   const { routes } = props;
   let variantChange = "0.2s linear";
   let shadow = useColorModeValue(

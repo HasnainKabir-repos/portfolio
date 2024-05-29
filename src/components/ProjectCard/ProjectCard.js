@@ -24,7 +24,6 @@ export default function ProjectCard(props) {
   const [loadedprojectimg, setloadedprojectimg] = useState(false);
   const styles = useStyleConfig("Card");
   const primaryColor = useColorModeValue("#D2691E", "#FFA07A"); // Chocolate and LightSalmon
-  const secondaryColor = useColorModeValue("#2F4F4F", "#F5F5F5"); // DarkSlateGray and WhiteSmoke
   const backgroundColor = useColorModeValue("#FFFAF0", "#2F4F4F"); // FloralWhite and DarkSlateGray
   const highlightTextColor = useColorModeValue("#4A90E2", "#50E3C2"); // Blue and Aqua colors
   const textColor = useColorModeValue("#1A202C", "#E2E8F0");
